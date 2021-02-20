@@ -1,8 +1,8 @@
 import React from 'react'
-function Check(){
+function Check(props){
 return(
 
-    <h1>Hello World</h1>
+    <h1>props.message</h1>
 )
 }
 

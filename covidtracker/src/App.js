@@ -5,7 +5,7 @@ import Check from './Components/header';
 function App() {
   return (
     <div className="App">
-     <Check></Check>
+     <Check message="Hello Fawad"></Check>
     </div>
   );
 }
