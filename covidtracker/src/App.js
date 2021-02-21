@@ -1,11 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
-import Ckeck from './Components/header'
-import Check from './Components/header';
+import TopBar from './Components/TopBar'
 function App() {
   return (
     <div className="App">
-     <Check message="Hello Fawad"></Check>
+  <TopBar></TopBar>
     </div>
   );
 }
